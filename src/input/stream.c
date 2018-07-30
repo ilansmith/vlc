@@ -453,7 +453,7 @@ ssize_t vlc_stream_ReadPartial(stream_t *s, void *buf, size_t len)
     return ret;
 }
 
-ssize_t vlc_stream_Read(stream_t *s, void *buf, size_t len)
+ssize_t vlc_stream_Read(stream_t *s, void *buf, size_t len) /* XXX */
 {
     size_t copied = 0;
 
